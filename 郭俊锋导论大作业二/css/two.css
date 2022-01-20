@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 去掉无序列表的默认样式 */
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: #333333;
+	color: #FFFFFF;
+}
+.header h1{
+	display: flex;
+	font-size: 40px;
+	align-items: center;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*标题前面的小条状块*/
+.header h1::before{
+	content:'';
+	display:inline-block;
+	width: 8px;
+	height: 45px;
+	margin-right: 15px;
+	background: #FFFFFF;
+}
+.im h2{
+	display: flex;
+	font-size: 30px;
+	align-items: center;
+	letter-spacing: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.im a{
+	cursor:pointer;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.im a:hover{
+	color:#ce8460;
+}

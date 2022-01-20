@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: #333333;
+	color: #FFFFFF;
+}
+/* 去掉无序列表的默认样式 */
+li{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* 内容区域 */
+.content{
+	width: 1000px;
+	margin: auto;
+}
+/* 首页标题 */
+.title{
+	font-size: 60px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.ht-l img{
+	width: 400px;
+	height: 300px;
+	margin: 20px auto;
+}
+.ht-l h2{
+	font-size: 35px;
+}
+.ht-l a{
+	cursor:pointer;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+.ht-l a:hover{
+	color:#ce8460;
+}
+.footer{
+	text-align: center;
+	margin-top: 10px;
+}
